@@ -21,8 +21,4 @@ lib.linkLibrary(zsqlite_c_artifact);
 
 ## Use
 
-```zig
-const c = @cImport({
-    @include("sqlite3.h");
-});
-```
+See [example-usage-c-import.zig](./example-usage-c-import.zig).
